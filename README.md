@@ -1,0 +1,4 @@
+boilerplate
+===========
+
+Default site template

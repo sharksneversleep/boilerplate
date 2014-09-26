@@ -1,0 +1,34 @@
+// Site Boilerplate
+// layout.scss
+// structural layout of site
+// called in master.scss
+
+// *****************************************
+// SITE DEFAULTS
+// *****************************************
+
+html {
+    font-size:62.5%;
+}
+
+// default body
+body {
+    @include font_body_copy;
+    color:#666;
+}
+
+div#main,
+div[role=main]{
+    background:#FFF;
+    min-height:600px;
+    font-size:1.4em;
+}
+
+p {
+    margin:0 0 8px 0;
+}
+
+em {
+    font-size:1.4rem;
+    font-style:normal;
+}
